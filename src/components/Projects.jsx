@@ -2,15 +2,7 @@ import { motion } from 'framer-motion'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
 const projects = [
-  {
-    title: 'Web-Based Code Learning Game',
-    description: 'An interactive web application to facilitate an engaging code learning experience. Implemented key user engagement features and internal systems for progress tracking.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    gradient: 'linear-gradient(135deg,#7c3aed,#ec4899)',
-    emoji: '🎮',
-    github: 'https://github.com/Anup1094',
-    live: null,
-  },
+ 
   {
     title: 'Student Management System',
     description: 'A console-based CRUD application to manage student records with full database connectivity. Implemented Add, Update, Delete, and View operations using OOPS principles.',
@@ -20,6 +12,16 @@ const projects = [
     github: 'https://github.com/Anup1094',
     live: null,
   },
+  {
+  title: 'Student Portal — Full Stack',
+  description:
+    'A Full Stack Student Management Portal with complete CRUD operations. React frontend connected with Spring Boot REST APIs and MySQL database.',
+  tech: ['React', 'Spring Boot', 'MySQL', 'REST API'],
+  gradient: 'linear-gradient(135deg,#06b6d4,#7c3aed)',
+  emoji: '🎓',
+  github: 'https://github.com/Anup1094/StudentPortal-ReactSpringBoot',
+  live: null,
+},
 ]
 
 const Projects = () => {
