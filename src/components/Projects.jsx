@@ -9,7 +9,7 @@ const projects = [
     tech: ['Java', 'JDBC', 'MySQL'],
     gradient: 'linear-gradient(135deg,#ec4899,#f97316)',
     emoji: '🎓',
-    github: 'https://github.com/Anup1094',
+    github: 'https://github.com/Anup1094/StudentManagementSystem',
     live: null,
   },
   {
@@ -21,6 +21,16 @@ const projects = [
   emoji: '🎓',
   github: 'https://github.com/Anup1094/StudentPortal-ReactSpringBoot',
   live: null,
+},
+{
+  title: 'Adida Events — Event Portal',
+  description:
+    'A full stack event management portal with an admin panel. React frontend connected to a Node.js backend and MongoDB database, deployed on Vercel.',
+  tech: ['React', 'Node.js', 'MongoDB', 'REST API'],
+  gradient: 'linear-gradient(135deg,#22c55e,#06b6d4)',
+  emoji: '🎟️',
+  github: 'https://github.com/Anup1094/adida-events-portal',
+  live: 'https://adida-events-portal-pearl.vercel.app/',
 },
 ]
 
